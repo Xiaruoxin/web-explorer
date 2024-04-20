@@ -1,0 +1,37 @@
+{
+  "id": "4516306",
+  "name": "web",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1330569",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e73b",
+      "unicode_decimal": 59195
+    },
+    {
+      "icon_id": "9186714",
+      "name": "QQ",
+      "font_class": "QQ",
+      "unicode": "e667",
+      "unicode_decimal": 58983
+    },
+    {
+      "icon_id": "19450584",
+      "name": "github",
+      "font_class": "github-fill",
+      "unicode": "eac8",
+      "unicode_decimal": 60104
+    },
+    {
+      "icon_id": "34064732",
+      "name": "哔哩哔哩",
+      "font_class": "bilibili",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    }
+  ]
+}
