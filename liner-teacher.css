@@ -47,12 +47,12 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  right: 300px;
-  top: 140px;
+  right: 200px;
+  top: 110px;
 }
 .tag2 {
-  right: 300px;
-  top: 450px;
+  right: 200px;
+  top: 420px;
   padding: 30px;
 }
 .tag1 img {
