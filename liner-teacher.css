@@ -1,0 +1,75 @@
+body {
+  background-image: url(images/wallpaper.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container {
+  width: 680px;
+  margin: 50px auto;
+  transform: translateX(-30%);
+}
+.box {
+  width: 680px;
+  height: 220px;
+  background-color: rgba(255, 255, 255, 0.5);
+  /* 半透明背景 */
+  backdrop-filter: blur(10px);
+  /* 背景模糊 */
+  border-radius: 30px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.3);
+  margin-bottom: 30px;
+  display: flex;
+}
+.left img {
+  object-fit: cover;
+  width: 220px;
+  height: 220px;
+}
+.right {
+  padding: 30px;
+}
+.right h3 {
+  margin-bottom: 25px;
+}
+.tag1,
+.tag2 {
+  position: fixed;
+  width: 249px;
+  height: 249px;
+  background-color: #e5eff3;
+  box-shadow: 0 0 8px rgba(39, 69, 88, 0.6);
+  border-radius: 20px;
+}
+.tag1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  right: 300px;
+  top: 140px;
+}
+.tag2 {
+  right: 300px;
+  top: 450px;
+  padding: 30px;
+}
+.tag1 img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+.tag1 h4 {
+  font-size: 24px;
+}
+.tag2 h5 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 25px ;
+}
+.tag2 p {
+  text-align: center;
+  line-height: 30px;
+}

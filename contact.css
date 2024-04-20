@@ -1,0 +1,81 @@
+body {
+  background-image: url(images/wallpaper.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container {
+  border-radius: 50px;
+  display: flex;
+  margin: 30px auto;
+  width: 1200px;
+  height: 600px;
+  background-image: url(images/palm_trees_silhouettes_dawn_1211224_1920x1080.jpg);
+  background-size: cover;
+  opacity: 0.9;
+}
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  width: 460px;
+}
+.left > h3 {
+  color: #eae0e0;
+  text-align: center;
+  font-size: 32px;
+}
+.left div {
+  position: absolute;
+  width: 249px;
+  height: 249px;
+  border: #8282c2 5px solid;
+  border-radius: 50%;
+  opacity: 0.8;
+}
+.right {
+  flex-grow: 1.618;
+  width: 740px;
+}
+.text {
+  color: #eae0e0;
+}
+.text h3 {
+  font-size: 64px;
+  line-height: 200px;
+  margin: 30px 10px;
+}
+.text p {
+  padding: 0 80px 0 0;
+  line-height: 30px;
+}
+.icon {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 100px;
+  margin-top: 30px;
+}
+.icon p {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
+  color: #eae0e0;
+  opacity: 0;
+  transition: 0.2s;
+}
+.icon div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.2s;
+}
+.icon div:hover,
+.icon div:hover p {
+  transition: 0.2s;
+  transform: scale(1.1);
+  opacity: 1;
+}
+.icon img {
+  width: 40px;
+  height: 40px;
+}

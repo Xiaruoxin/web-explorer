@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(240, 240, 240, 0.15);
+
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.logo {
+    display: block;
+    padding: 10px;
+    font-size: 48px;
+    color: #333333;
+
+    text-decoration: none;
+}
+
+nav a {
+    color: #333333;
+    font-size: 26px;
+    padding: 5px 0 10px 0;
+    margin-right: 20px;
+    text-decoration: none;
+    transition: all;
+}
+
+
+
+nav div a:hover {
+    transition: all;
+    border-bottom: 2px solid rgb(7, 117, 100);
+
+}
+
+footer p {
+    color: rgb(215, 199, 199);
+}
+
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: rgba(213, 204, 204, 0.3);
+}
+
+footer p {
+    color: rgb(215, 199, 199);
+}

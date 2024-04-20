@@ -1,0 +1,50 @@
+body {
+  background-image: url(images/wallpaper.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container {
+  margin: 100px auto;
+  display: flex;
+  width: 70rem;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.container h3 {
+  font-size: 32px;
+}
+.container img {
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.container img:hover {
+  border-radius: 10px;
+  transform: 0.3s;
+  transform: scale(1.05);
+}
+.box {
+  overflow: hidden    ;
+  display: flex;
+  background-color: rgba(240, 240, 240, 0.6);
+  border-radius: 40px;
+  margin-bottom: 20px;
+  height: 300px;
+}
+.box div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5%;
+}
+.box p {
+  font-size: 18px;
+  line-height: 30px;
+}
+.box h3 {
+  line-height: 64px;
+}
